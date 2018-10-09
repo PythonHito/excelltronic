@@ -1,0 +1,10 @@
+|dtypeff
+d1 <= clk.DB_MAX_OUTPUT_PORT_TYPE
+clk => d1.DATAIN
+clk => inst.CLK
+d2 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+d4 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+d8 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+d16 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
