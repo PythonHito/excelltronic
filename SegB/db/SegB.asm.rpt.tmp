@@ -1,0 +1,81 @@
+Assembler report for SegB
+Wed Oct 10 15:15:46 2018
+Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Assembler Summary
+  3. Assembler Settings
+  4. Assembler Generated Files
+  5. Assembler Device Options: C:/local/SegB/output_files/SegB.sof
+  6. Assembler Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++---------------------------------------------------------------+
+; Assembler Summary                                             ;
++-----------------------+---------------------------------------+
+; Assembler Status      ; Successful - Wed Oct 10 15:15:46 2018 ;
+; Revision Name         ; SegB                                  ;
+; Top-level Entity Name ; SegB                                  ;
+; Family                ; MAX 10                                ;
+; Device                ; 10M50DAF484C7G                        ;
++-----------------------+---------------------------------------+
+
+
++----------------------------------+
+; Assembler Settings               ;
++--------+---------+---------------+
+; Option ; Setting ; Default Value ;
++--------+---------+---------------+
+
+
++-------------------------------------+
+; Assembler Generated Files           ;
++-------------------------------------+
+; File Name                           ;
++-------------------------------------+
+; C:/local/SegB/output_files/SegB.sof ;
++-------------------------------------+
+
+
++---------------------------------------------------------------+
+; Assembler Device Options: C:/local/SegB/output_files/SegB.sof ;
++----------------+----------------------------------------------+
+; Option         ; Setting                                      ;
++----------------+----------------------------------------------+
+; JTAG usercode  ; 0x0026FFB9                                   ;
+; Checksum       ; 0x0026FFB9                                   ;
++----------------+----------------------------------------------+
+
+
++--------------------+
+; Assembler Messages ;
++--------------------+
+<<<<message_ref>>>>
+C:/local/SegB/db/SegB.asm.qmsg
+<<<</message_ref>>>>
+
+

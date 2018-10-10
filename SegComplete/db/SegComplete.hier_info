@@ -1,0 +1,40 @@
+|SegComplete
+SegA <= SegA:inst4.SegA
+D => SegA:inst4.D
+D => SegB:inst.D
+C => SegA:inst4.C
+C => SegB:inst.C
+B => SegA:inst4.B
+B => SegB:inst.B
+A => SegA:inst4.A
+A => SegB:inst.A
+SegB <= SegB:inst.SegB
+
+
+|SegComplete|SegA:inst4
+SegA <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+C => inst9.IN0
+C => inst5.IN0
+C => inst1.IN0
+D => inst.IN0
+D => inst8.IN1
+D => inst6.IN1
+A => inst9.IN2
+A => inst3.IN0
+B => inst7.IN1
+B => inst5.IN1
+B => inst2.IN0
+
+
+|SegComplete|SegB:inst
+SegB <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst3.IN0
+A => inst6.IN0
+A => inst5.IN0
+B => inst2.IN0
+B => inst6.IN1
+D => inst.IN0
+D => inst5.IN2
+C => inst1.IN0
+
+

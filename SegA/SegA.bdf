@@ -23,7 +23,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 144 104 312 120)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "D" (rect 5 0 14 12)(font "Arial" ))
+	(text "D" (rect 5 0 13 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 144 152 312 168)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "C" (rect 5 0 13 17)(font "Intel Clear" ))
+	(text "C" (rect 5 0 12 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -57,7 +57,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 144 200 312 216)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "B" (rect 5 0 13 17)(font "Intel Clear" ))
+	(text "B" (rect 5 0 12 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -74,7 +74,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 144 248 312 264)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "A" (rect 5 0 13 17)(font "Intel Clear" ))
+	(text "A" (rect 5 0 12 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -728,10 +728,6 @@ refer to the applicable agreement for further details.
 	(pt 544 320)
 )
 (connector
-	(pt 544 408)
-	(pt 544 384)
-)
-(connector
 	(pt 552 184)
 	(pt 552 320)
 )
@@ -770,6 +766,10 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 584 552)
 	(pt 584 560)
+)
+(connector
+	(pt 544 384)
+	(pt 544 408)
 )
 (junction (pt 320 112))
 (junction (pt 320 160))

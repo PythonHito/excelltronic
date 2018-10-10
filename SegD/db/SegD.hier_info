@@ -1,0 +1,14 @@
+|SegD
+SegD <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst3.IN0
+A => inst8.IN0
+A => inst6.IN0
+B => inst2.IN0
+B => inst6.IN1
+C => inst9.IN2
+C => inst8.IN2
+C => inst1.IN0
+D => inst7.IN2
+D => inst.IN0
+
+
