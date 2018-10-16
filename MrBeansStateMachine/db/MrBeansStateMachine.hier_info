@@ -1,0 +1,14 @@
+|MrBeansStateMachine
+Z3 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+reset => Q1.ACLR
+reset => Q0.ACLR
+clk => Q1.CLK
+clk => Q0.CLK
+A => inst2.IN0
+A => inst13.IN1
+A => inst18.IN2
+Z2 <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+Z1 <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+Z0 <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+
+
